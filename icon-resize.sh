@@ -6,6 +6,7 @@ else
     echo "Resizing image $1 to iOS icon sizes.";
 
     convert $1 -resize 57x57 Icon.png
+    convert $1 -resize 114x114 Icon@2x.png
     convert $1 -resize 512x512 iTunesArtwork
     convert $1 -resize 1024x1024 iTunesArtwork@2x
     convert $1 -resize 72x72 Icon-72.png
