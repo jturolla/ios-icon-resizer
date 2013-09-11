@@ -3,7 +3,21 @@ ios-tools
 
 iOS Tools to help with painful and time spending tasks.
 
+# icon-resize.sh:
 
+Resizing of an 1024x1024 image to multiple iPhone/iPad icon sizes:
+
+    Icon.png 57x57 
+    Icon@2x.png 114x114
+    Icon-72.png 72x72 
+    Icon-72@2x.png 144x144 
+    Icon-Small.png 29x29
+    Icon-Small@2x.png 58x58 
+    Icon-Small-50.png  50x50 
+    Icon-Small-50@2x.png 100x100 
+    iTunesArtwork 512x512 
+    iTunesArtwork@2x 1024x1024
+ 
 LICENCE
 =======
 
