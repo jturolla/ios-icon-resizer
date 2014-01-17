@@ -15,14 +15,16 @@ else
     convert $1 -resize 58x58 Icon-Small@2x.png
     convert $1 -resize 50x50 Icon-Small-50.png
     convert $1 -resize 100x100 Icon-Small-50@2x.png
-    convert $i -resize 120x120 ios7-iphone@2x.png
-    convert $1 -resize 76x76 ios7-ipad.png
-    convert $1 -resize 80x80 ios7-spotlight-iphone.png
-    convert $1 -resize 152x152 ios7-ipad@2x.png
-    convert $1 -resize 40x40 ios7-spotlight-ipad.png
-    convert $1 -resize 58x58 ios7-settings@2x.png
-    convert $1 -resize 29x29 ios7-settings-ipad.png
-    convert $1 -resize 58x58 ios7-settings-ipad@2x.png
+
+    convert $1 -resize 120x120 ios7-60.png
+    convert $1 -resize 76x76 ios7-76.png
+    convert $1 -resize 152x152 ios7-152.png
+    convert $1 -resize 80x80 ios7-80.png
+    convert $1 -resize 40x40 ios7-40.png
+    convert $1 -resize 58x58 ios7-58.png
+    convert $1 -resize 29x29 ios7-29.png
+    convert $1 -resize 58x58 ios7-58.png
+    convert $1 -resize 60x60 ios7-60.png
 
 fi
 
